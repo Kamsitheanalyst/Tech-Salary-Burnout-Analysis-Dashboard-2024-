@@ -1,6 +1,6 @@
 # Tech Salary & Burnout Analysis Dashboard (2024)
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes a synthetic dataset of tech professionals in 2024 to explore salary patterns and employee burnout trends across different job roles, work setups, and global locations. The goal was to generate actionable insights through data cleaning, exploratory data analysis (EDA), and interactive dashboard creation using Microsoft Excel.
 
 The project includes two dashboards:
@@ -9,7 +9,7 @@ The project includes two dashboards:
 
 ---
 
-## 🗂️ Dataset Description
+## Dataset Description
 The dataset contains **200 rows and 19 columns**, representing tech professionals across various industries and locations.
 
 Key columns include:
@@ -40,16 +40,18 @@ Key columns include:
 
 ---
 
-## 🧹 Data Cleaning Process
+## Data Cleaning Process
 The following cleaning steps were performed:
 - Checked for missing values in key columns.
 - Ensured numeric columns (Salary, Burnout Rate, Weekly Hours) were correctly formatted.
 - Grouped continuous variables such as Weekly Hours and Years of Experience for better analysis.
 - Identified extreme outliers and ensured insights were not misleading due to small sample size categories.
+- Removed duplicates.
+- Formatted columns like the salary into currency.
 
 ---
 
-# 💰 Salary Dashboard Analysis
+# Salary Dashboard Analysis
 
 ## KPIs Displayed
 - Average Salary
@@ -74,7 +76,7 @@ The following cleaning steps were performed:
 
 ---
 
-# 🔥 Burnout Dashboard Analysis
+#  Burnout Dashboard Analysis
 
 ## KPIs Displayed
 - Average Burnout Rate
